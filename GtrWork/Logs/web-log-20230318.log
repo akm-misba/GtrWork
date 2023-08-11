@@ -1,0 +1,21 @@
+2023-03-18 13:27:13.783 +06:00 [INF] Application Starting up
+2023-03-18 13:27:40.164 +06:00 [WRN] Invalid password for user.
+2023-03-18 13:27:40.179 +06:00 [WRN] User failed to provide the correct password.
+2023-03-18 13:29:17.942 +06:00 [WRN] Invalid password for user.
+2023-03-18 13:29:17.942 +06:00 [WRN] User failed to provide the correct password.
+2023-03-18 13:29:24.249 +06:00 [WRN] Invalid password for user.
+2023-03-18 13:29:24.249 +06:00 [WRN] User failed to provide the correct password.
+2023-03-18 13:29:39.890 +06:00 [INF] Application Starting up
+2023-03-18 13:29:52.019 +06:00 [WRN] Invalid password for user.
+2023-03-18 13:29:52.024 +06:00 [WRN] User failed to provide the correct password.
+2023-03-18 13:30:46.955 +06:00 [INF] User created a new account with password.
+2023-03-18 13:30:49.085 +06:00 [INF] User logged out.
+2023-03-18 13:30:57.320 +06:00 [INF] User logged in.
+2023-03-18 13:31:04.094 +06:00 [INF] User logged out.
+2023-03-18 13:31:11.897 +06:00 [INF] User logged in.
+2023-03-18 18:34:37.624 +06:00 [INF] Application Starting up
+2023-03-18 18:35:29.339 +06:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresLower.
+2023-03-18 18:36:05.213 +06:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2023-03-18 18:36:42.380 +06:00 [INF] User created a new account with password.
+2023-03-18 18:36:45.733 +06:00 [INF] User logged out.
+2023-03-18 18:37:00.168 +06:00 [INF] User logged in.

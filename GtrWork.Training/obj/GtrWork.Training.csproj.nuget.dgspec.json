@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Training\\GtrWork.Training.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Common\\GtrWork.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Common\\GtrWork.Common.csproj",
+        "projectName": "GtrWork.Common",
+        "projectPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Common\\GtrWork.Common.csproj",
+        "packagesPath": "C:\\Users\\misba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\misba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Data\\GtrWork.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Data\\GtrWork.Data.csproj",
+        "projectName": "GtrWork.Data",
+        "projectPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Data\\GtrWork.Data.csproj",
+        "packagesPath": "C:\\Users\\misba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\misba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Training\\GtrWork.Training.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Training\\GtrWork.Training.csproj",
+        "projectName": "GtrWork.Training",
+        "projectPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Training\\GtrWork.Training.csproj",
+        "packagesPath": "C:\\Users\\misba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Training\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\misba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Common\\GtrWork.Common.csproj": {
+                "projectPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Common\\GtrWork.Common.csproj"
+              },
+              "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Data\\GtrWork.Data.csproj": {
+                "projectPath": "C:\\Users\\misba\\OneDrive\\Desktop\\GtrWork\\GtrWork.Data\\GtrWork.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

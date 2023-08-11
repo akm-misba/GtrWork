@@ -1,0 +1,8 @@
+2023-05-04 06:28:34.384 +06:00 [INF] Application Starting up
+2023-05-04 06:29:21.273 +06:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresLower.
+2023-05-04 06:29:56.721 +06:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2023-05-04 06:30:29.818 +06:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2023-05-04 06:31:00.845 +06:00 [INF] User created a new account with password.
+2023-05-04 06:31:04.574 +06:00 [INF] User logged out.
+2023-05-04 06:31:20.775 +06:00 [INF] User logged in.
+2023-05-04 06:32:43.626 +06:00 [INF] User logged out.

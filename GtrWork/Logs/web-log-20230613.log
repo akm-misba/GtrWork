@@ -1,0 +1,84 @@
+2023-06-13 10:00:53.520 +06:00 [INF] Application Starting up
+2023-06-13 10:04:28.783 +06:00 [INF] Application Starting up
+2023-06-13 10:05:30.162 +06:00 [INF] Application Starting up
+2023-06-13 10:05:50.740 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_Int32()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetInt32(Int32 i)
+   at lambda_method613(Closure , QueryContext , DbDataReader , ResultContext , SingleQueryResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at GtrWork.Data.Repository`2.GetDynamic(Expression`1 filter, String orderBy, String includeProperties, Int32 pageIndex, Int32 pageSize, Boolean isTrackingOff) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Data\Repository.cs:line 167
+   at GtrWork.Training.Services.ProductService.GetProducts(Int32 pageIndex, Int32 pageSize, String searchText, String sortText) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Training\Services\ProductService.cs:line 97
+   at GtrWork.Areas.Admin.Models.ProductListModel.GetProducts(DataTablesAjaxRequestModel tableModel) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Models\ProductListModel.cs:line 31
+   at GtrWork.Areas.admin.Controllers.ProductController.GetProductData() in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 35
+   at lambda_method609(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-13 10:05:52.249 +06:00 [ERR] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.ThrowResponseAlreadyStartedException(String name)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.Views.DatabaseErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseDeveloperPageExceptionFilter.HandleExceptionAsync(ErrorContext errorContext, Func`2 next)
+2023-06-13 10:08:49.308 +06:00 [INF] Application Starting up
+2023-06-13 10:09:31.919 +06:00 [INF] Application Starting up
+2023-06-13 10:10:23.661 +06:00 [ERR] Create Product Failed
+GtrWork.Training.Exceptions.invalidPerameterException: Model Name Already Used
+   at GtrWork.Training.Services.ProductService.CreateProduct(Product prod) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Training\Services\ProductService.cs:line 41
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 57
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 53
+2023-06-13 10:35:09.334 +06:00 [INF] Application Starting up
+2023-06-13 10:35:53.015 +06:00 [INF] Application Starting up
+2023-06-13 10:36:13.075 +06:00 [ERR] Create Product Failed
+GtrWork.Training.Exceptions.invalidPerameterException: Model Name Already Used
+   at GtrWork.Training.Services.ProductService.CreateProduct(Product prod) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Training\Services\ProductService.cs:line 41
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 57
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 53
+2023-06-13 10:36:19.331 +06:00 [ERR] Create Product Failed
+GtrWork.Training.Exceptions.invalidPerameterException: Model Name Already Used
+   at GtrWork.Training.Services.ProductService.CreateProduct(Product prod) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Training\Services\ProductService.cs:line 41
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 57
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 53
+2023-06-13 10:40:35.182 +06:00 [INF] Application Starting up
+2023-06-13 10:44:07.397 +06:00 [INF] Application Starting up
+2023-06-13 10:44:20.867 +06:00 [ERR] Create Product Failed
+GtrWork.Training.Exceptions.invalidPerameterException: Model Name Already Used
+   at GtrWork.Training.Services.ProductService.CreateProduct(Product prod) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Training\Services\ProductService.cs:line 41
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 57
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 53
+2023-06-13 10:46:17.796 +06:00 [INF] Application Starting up
+2023-06-13 11:01:33.891 +06:00 [INF] Application Starting up
+2023-06-13 11:06:07.822 +06:00 [INF] Application Starting up
+2023-06-13 11:08:09.369 +06:00 [ERR] Create Product Failed
+GtrWork.Training.Exceptions.invalidPerameterException: Model Name Already Used
+   at GtrWork.Training.Services.ProductService.CreateProduct(Product prod) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Training\Services\ProductService.cs:line 41
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 57
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 53
+2023-06-13 11:13:45.281 +06:00 [INF] Application Starting up
+2023-06-13 23:09:15.652 +06:00 [INF] Application Starting up

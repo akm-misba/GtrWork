@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GtrWork.Common\GtrWork.Common.csproj" />
+    <ProjectReference Include="..\GtrWork.Data\GtrWork.Data.csproj" />
+  </ItemGroup>
+
+</Project>

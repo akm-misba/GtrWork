@@ -1,0 +1,219 @@
+2023-02-19 08:55:53.269 +06:00 [INF] Application Starting up
+2023-02-19 08:56:45.446 +06:00 [ERR] Create Product Failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateProductModel -> Product
+GtrWork.Areas.Admin.Models.CreateProductModel -> GtrWork.Training.BusinessObjects.Product
+   at lambda_method612(Closure , Object , Product , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in F:\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 43
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 52
+2023-02-19 08:56:49.541 +06:00 [ERR] Create Product Failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateProductModel -> Product
+GtrWork.Areas.Admin.Models.CreateProductModel -> GtrWork.Training.BusinessObjects.Product
+   at lambda_method612(Closure , Object , Product , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in F:\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 43
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 52
+2023-02-19 09:01:26.379 +06:00 [INF] Application Starting up
+2023-02-19 09:07:45.109 +06:00 [INF] Application Starting up
+2023-02-19 09:09:01.024 +06:00 [ERR] Create Product Failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateProductModel -> Product
+GtrWork.Areas.Admin.Models.CreateProductModel -> GtrWork.Training.BusinessObjects.Product
+   at lambda_method612(Closure , Object , Product , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in F:\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 43
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 52
+2023-02-19 09:12:39.960 +06:00 [INF] Application Starting up
+2023-02-19 09:15:13.076 +06:00 [ERR] Create Product Failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateProductModel -> Product
+GtrWork.Areas.Admin.Models.CreateProductModel -> GtrWork.Training.BusinessObjects.Product
+   at lambda_method612(Closure , Object , Product , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in F:\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 43
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 52
+2023-02-19 09:21:16.266 +06:00 [INF] Application Starting up
+2023-02-19 09:23:40.603 +06:00 [INF] Application Starting up
+2023-02-19 09:24:13.875 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> EditProductModel
+GtrWork.Training.BusinessObjects.Product -> GtrWork.Areas.Admin.Models.EditProductModel
+   at lambda_method649(Closure , Product , EditProductModel , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.EditProductModel.LoadDataModel(Int32 id) in F:\GtrWork\GtrWork\Areas\Admin\Models\EditProductModel.cs:line 38
+   at GtrWork.Areas.admin.Controllers.ProductController.Edit(Int32 id) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 66
+   at lambda_method647(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-19 09:27:18.549 +06:00 [INF] Application Starting up
+2023-02-19 12:22:33.649 +06:00 [INF] Application Starting up
+2023-02-19 12:23:40.914 +06:00 [ERR] Create Product Failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateProductModel -> Product
+GtrWork.Areas.Admin.Models.CreateProductModel -> GtrWork.Training.BusinessObjects.Product
+   at lambda_method612(Closure , Object , Product , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in F:\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 43
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 52
+2023-02-19 12:25:39.691 +06:00 [INF] Application Starting up
+2023-02-19 12:26:15.900 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Product -> EditProductModel
+GtrWork.Training.BusinessObjects.Product -> GtrWork.Areas.Admin.Models.EditProductModel
+   at lambda_method649(Closure , Product , EditProductModel , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.EditProductModel.LoadDataModel(Int32 id) in F:\GtrWork\GtrWork\Areas\Admin\Models\EditProductModel.cs:line 38
+   at GtrWork.Areas.admin.Controllers.ProductController.Edit(Int32 id) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 66
+   at lambda_method647(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-19 12:31:02.936 +06:00 [INF] Application Starting up
+2023-02-19 12:32:16.786 +06:00 [INF] Application Starting up
+2023-02-19 12:34:02.853 +06:00 [INF] Application Starting up
+2023-02-19 12:53:59.374 +06:00 [INF] Application Starting up
+2023-02-19 12:55:09.893 +06:00 [INF] Application Starting up
+2023-02-19 12:55:50.525 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Couldn't find Order
+   at GtrWork.Training.Services.ProductService.UpdateProduct(Product product) in F:\GtrWork\GtrWork.Training\Services\ProductService.cs:line 105
+   at GtrWork.Areas.Admin.Models.EditProductModel.Update() in F:\GtrWork\GtrWork\Areas\Admin\Models\EditProductModel.cs:line 78
+   at GtrWork.Areas.admin.Controllers.ProductController.Edit(EditProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 75
+   at lambda_method666(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-19 13:00:56.248 +06:00 [INF] Application Starting up
+2023-02-19 13:02:31.758 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Couldn't find Product
+   at GtrWork.Training.Services.ProductService.UpdateProduct(Product product) in F:\GtrWork\GtrWork.Training\Services\ProductService.cs:line 105
+   at GtrWork.Areas.Admin.Models.EditProductModel.Update() in F:\GtrWork\GtrWork\Areas\Admin\Models\EditProductModel.cs:line 78
+   at GtrWork.Areas.admin.Controllers.ProductController.Edit(EditProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 75
+   at lambda_method666(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-19 13:03:24.577 +06:00 [INF] Application Starting up
+2023-02-19 13:04:24.389 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Couldn't find Product
+   at GtrWork.Training.Services.ProductService.UpdateProduct(Product product) in F:\GtrWork\GtrWork.Training\Services\ProductService.cs:line 105
+   at GtrWork.Areas.Admin.Models.EditProductModel.Update() in F:\GtrWork\GtrWork\Areas\Admin\Models\EditProductModel.cs:line 78
+   at GtrWork.Areas.admin.Controllers.ProductController.Edit(EditProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 75
+   at lambda_method666(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-02-19 13:12:58.692 +06:00 [INF] Application Starting up
+2023-02-19 13:13:35.279 +06:00 [ERR] Create Product Failed
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateProductModel -> Product
+GtrWork.Areas.Admin.Models.CreateProductModel -> GtrWork.Training.BusinessObjects.Product
+   at lambda_method612(Closure , Object , Product , ResolutionContext )
+   at GtrWork.Areas.Admin.Models.CreateProductModel.CreateProduct() in F:\GtrWork\GtrWork\Areas\Admin\Models\CreateProductModel.cs:line 43
+   at GtrWork.Areas.admin.Controllers.ProductController.Create(CreateProductModel model) in F:\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 52

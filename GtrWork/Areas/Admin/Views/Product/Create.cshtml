@@ -1,0 +1,129 @@
+﻿@model CreateProductModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>Create A New Product</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Create Product</li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-info">
+                    <div class="card-header">
+                        <h3 class="card-title">Create A New Product</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form class="form-horizontal" method="post" asp-controller="Product"
+                          asp-action="Create" asp-antiforgery="true">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="card-body">
+                            @*<div class="form-group row">
+                <label asp-for="Id" class="col-sm-2 col-form-label">Id</label>
+                <div class="col-sm-10">
+                    <input type="text" asp-for="Id" class="form-control"
+                           id="id" placeholder="Id">
+                </div>
+            </div>*@
+
+                            <div class="form-group row">
+                                <label asp-for="Product_Id" class="col-sm-2 col-form-label">Product_Id</label>
+                                <div class="col-sm-10">
+                                    <input type="text" asp-for="Product_Id" class="form-control"
+                                           id="product_id" placeholder="Product_Id">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label asp-for="BrandName" class="col-sm-2 col-form-label">Brand Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" asp-for="BrandName" class="form-control"
+                                           id="brandname" placeholder="BrandName">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group row">
+                                <label asp-for="ModelName" class="col-sm-2 col-form-label">Model Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" asp-for="ModelName" class="form-control"
+                                           id="modelname" placeholder="ModelName">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label asp-for="Price" class="col-sm-2 col-form-label">Price</label>
+                                <div class="col-sm-10">
+                                    <input type="number" asp-for="Price" class="form-control"
+                                           id="price" placeholder="Price">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group row">
+                                <label asp-for="LastPurchaseDate" class="col-sm-2 col-form-label">Last Purchase Date</label>
+                                <div class="col-sm-10">
+                                    <input type="text" asp-for="LastPurchaseDate" class="form-control"
+                                           id="lastpurchasedate" placeholder="dd/mm/yyyy">
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="form-group row">
+                                <label asp-for="Status" class="col-sm-2 col-form-label">Status</label>
+                                <div class="col-sm-10">
+                                    <input type="text" asp-for="Status" class="form-control"
+                                           id="status" placeholder="Status">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="exampleInputFile">File input</label>
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="exampleInputFile">
+                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                </div>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">Upload</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                            <!-- /.card-body -->
+                            <div class="card-footer">
+                                <button type="submit" class="btn btn-info">Create</button>
+                                <a asp-action="Index" asp-controller="Product"
+                                   class="btn btn-default float-right">Cancel</a>
+                            </div>
+                            <!-- /.card-footer -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

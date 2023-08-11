@@ -1,0 +1,35 @@
+2023-08-11 18:27:56.544 +06:00 [INF] Application Starting up
+2023-08-11 18:29:13.276 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+GtrWork.Training.Exceptions.DuplicateTitleException: time 30 Days+
+   at GtrWork.Training.Services.ProductService.UpdateProduct(Product product) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork.Training\Services\ProductService.cs:line 113
+   at GtrWork.Areas.Admin.Models.EditProductModel.Update() in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Models\EditProductModel.cs:line 50
+   at GtrWork.Areas.admin.Controllers.ProductController.Edit(EditProductModel model) in C:\Users\misba\OneDrive\Desktop\GtrWork\GtrWork\Areas\Admin\Controllers\ProductController.cs:line 76
+   at lambda_method690(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-08-11 18:53:09.139 +06:00 [INF] Application Starting up
+2023-08-11 19:07:05.768 +06:00 [INF] Application Starting up
+2023-08-11 19:08:22.984 +06:00 [INF] Application Starting up
+2023-08-11 19:13:51.869 +06:00 [INF] Application Starting up
+2023-08-11 19:20:04.120 +06:00 [INF] Application Starting up
+2023-08-11 21:36:38.103 +06:00 [INF] Application Starting up
